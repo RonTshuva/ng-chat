@@ -1,3 +1,4 @@
+import { AuthService } from './services/auth.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NG-Chat';
+
+  constructor(private authService: AuthService){
+
+  }
+
+  public signInWithGoogle(){
+    debugger;
+    this.authService.signInWithGoogle();
+  }
 }

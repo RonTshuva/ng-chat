@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ng-chat-a3ae0": {
+      "hosting": {
+        "NG-Chat": [
+          "ng-chat-a3ae0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ng-chat-a3ae0"
+  }
+}

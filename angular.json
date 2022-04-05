@@ -105,6 +105,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "NG-Chat:build:production",
+            "firebaseProject": "ng-chat-a3ae0",
+            "firebaseHostingSite": "ng-chat-a3ae0"
+          }
         }
       }
     }
